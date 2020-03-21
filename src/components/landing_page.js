@@ -1,9 +1,10 @@
 import React from 'react';
+import desk from '../images/desk.jpg';
 
 function LandingPage() {
   return (
     <div>
-      This is the landing page!!
+      <img src={desk} alt="desk" height="1000px"/>
     </div>
   )
 }
