@@ -9,6 +9,7 @@ import About from './about'
 const Main = () => (
   <Switch>
     <Route exact path="/" component={LandingPage} />
+    <Route path="/about" component={About} />
   </Switch>
 )
 
