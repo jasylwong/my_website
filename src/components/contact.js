@@ -25,14 +25,14 @@ function Contact() {
           So would I.
           Fill out the form below, and I'll get back to you as soon as possible.
         </p><br></br>
-        <Form name="contact" noValidate validated={validated} onSubmit={handleSubmit} method="POST" data-netlify="true">
+        {/* <Form name="contact" noValidate validated={validated} onSubmit={handleSubmit} method="POST" data-netlify="true">
           <Form.Group controlId="formBasicName">
             <Form.Label>Name:</Form.Label>
             <Form.Control type="text" name="name" placeholder="Enter name" required/>
             <Form.Control.Feedback type="invalid">
               Please tell me who you are, so I know who to reply to!
             </Form.Control.Feedback>
-          </Form.Group>
+          </Form.Group> */}
 
           {/* <Form.Group controlId="formBasicEmail">
             <Form.Label>Email:</Form.Label>
@@ -49,11 +49,25 @@ function Contact() {
               Please enter a message so I know what you want to chat about!
             </Form.Control.Feedback>
           </Form.Group> */}
-
+{/* 
           <Button variant="primary" type="submit">
             Get in touch
-          </Button>
-        </Form>
+          </Button> */}
+        {/* </Form> */}
+        <form name="contact" method="POST" data-netlify="true">
+          <p>
+            <label>Your Name: <input type="text" name="name" /></label>   
+          </p>
+          <p>
+            <label>Your Email: <input type="email" name="email" /></label>
+          </p>
+          <p>
+            <label>Message: <textarea name="message"></textarea></label>
+          </p>
+          <p>
+            <button type="submit">Send</button>
+          </p>
+        </form>
       </div>
     </div>
   )
