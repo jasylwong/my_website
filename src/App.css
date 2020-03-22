@@ -87,6 +87,14 @@ filter: sepia(60%); */
 
 .bold {
   font-weight: bold;
-  background-color: blue;
-  
+  background-color: blue;  
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container img{
+  width: 80px;
 }
