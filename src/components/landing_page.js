@@ -1,10 +1,11 @@
 import React from 'react';
-import desk from '../images/desk.jpg';
+// import desk from '../images/desk.jpg';
+import japan from '../images/japan.JPG';
 
 function LandingPage() {
   return (
     <div>
-      <img src={desk} alt="desk" height="1000px"/>
+      <img id="landing-pic" src={japan} alt="desk" height="1000px"/>
     </div>
   )
 }

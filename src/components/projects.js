@@ -2,6 +2,8 @@ import React from 'react';
 import Card from 'react-bootstrap/Card';
 import CardDeck from 'react-bootstrap/CardDeck';
 import Button from 'react-bootstrap/Button';
+import movie_database from '../images/movie_database.png';
+import front_page_news_summary from '../images/front_page_news_summary.png';
 import '../App.css'
 
 function Projects() {
@@ -13,10 +15,11 @@ function Projects() {
       <CardDeck class="card-deck">
         <Card style={{ width: '18rem' }} border="light" bg="primary">
           {/* <Card.Header as="h5">Movie database</Card.Header> */}
-          <Card.Img variant="top" src="https://images2.minutemediacdn.com/image/upload/c_fill,g_auto,h_1248,w_2220/v1555921450/shape/mentalfloss/theterminator.jpg?itok=y0C2LP_j" />
+          <Card.Img variant="top" src={movie_database} />
           <Card.Body>
             <Card.Title>Movie database</Card.Title>
             <Card.Text>
+              Lights! Camera! Action!
               A single-page React app for searching movies, using the OMDB API.
             </Card.Text>
             <div class="card-links">
@@ -27,12 +30,12 @@ function Projects() {
         </Card>
         
         <Card style={{ width: '18rem' }} border="light" bg="warning">
-          <Card.Img variant="top" src="https://parade.com/wp-content/uploads/2018/06/JWFK.jpg" />
+          <Card.Img variant="top" src={front_page_news_summary} />
           <Card.Body>
             <Card.Title>News summary</Card.Title>
             <Card.Text>
-              Some quick example text to build on the card title and make up the bulk of
-              the card's content.
+              Extra! Extra! Read all about it! An App listing news headlines and
+              summarising the article contents.
             </Card.Text>
             <div class="card-links">
               <Button variant="light" href="#">The app!</Button>

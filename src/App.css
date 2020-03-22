@@ -65,3 +65,15 @@
   width: 80%;
   margin: auto;
 }
+
+#landing-pic {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  object-fit: fill;
+  opacity: 85%;
+}
+
+.bold {
+  font-weight: bold;
+}
