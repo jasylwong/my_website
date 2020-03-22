@@ -3,7 +3,8 @@ import React from 'react';
 function CV() {
   return (
     <div>
-      This is my CV!
+      <br></br>
+      <h1 class="titles">Curriculum Vitae</h1>
     </div>
   )
 }

@@ -1,11 +1,23 @@
-#about_title {
-  height: 20vh;
+@import 'https://fonts.googleapis.com/css?family=Rock+Salt';
+
+.titles {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+#about_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  font-weight: bold;
 }
 
 .about-container {
+  transform: translateY(20%);
   display: flex;
   justify-content: space-around;
 }
@@ -30,6 +42,7 @@
   text-align: center;
   padding: 15px 20px;
   letter-spacing: .1em;
+  font-family: "Rock Salt", sans-serif;
 }
 
 .about-text {
@@ -37,4 +50,18 @@
   padding: 30px;
   background: lightblue;
   width: 600px;
+}
+
+.card-deck {
+  margin: auto;
+}
+
+.card-links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact-form {
+  width: 80%;
+  margin: auto;
 }
