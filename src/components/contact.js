@@ -25,7 +25,7 @@ function Contact() {
           So would I.
           Fill out the form below, and I'll get back to you as soon as possible.
         </p><br></br>
-        <Form noValidate validated={validated} onSubmit={handleSubmit} action="POST" data-netlify="true">
+        <Form noValidate validated={validated} onSubmit={handleSubmit} method="POST" data-netlify="true">
           <Form.Group controlId="formBasicName">
             <Form.Label>Name:</Form.Label>
             <Form.Control type="text" placeholder="Enter name" required/>
