@@ -7,7 +7,9 @@ import '../App.css'
 function Projects() {
   return (
     <div>
-      <h1 id="about_title">Projects</h1>
+      <br></br>
+      <h1 class="titles">Projects</h1>
+      <br></br>
       <CardDeck class="card-deck">
         <Card style={{ width: '18rem' }} border="light" bg="primary">
           {/* <Card.Header as="h5">Movie database</Card.Header> */}
