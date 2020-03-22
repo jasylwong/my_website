@@ -46,9 +46,9 @@
 }
 
 .about-text {
-  border: 2px black solid;
+  border: 1px solid lightgrey;
   padding: 30px;
-  background: lightblue;
+  background: rgb(220, 246, 255);
   width: 600px;
 }
 
@@ -71,9 +71,22 @@
   width: 100vw;
   height: 100vh;
   object-fit: fill;
-  opacity: 85%;
+  opacity: 65%;
+  /* filter: grayscale(50%);
+  filter: blur(5px);
+filter: brightness(0.4);
+filter: contrast(200%);
+filter: drop-shadow(16px 16px 20px blue);
+filter: grayscale(50%); */
+filter: hue-rotate(35deg);
+/* filter: invert(75%);
+filter: opacity(25%);
+filter: saturate(30%);
+filter: sepia(60%); */
 }
 
 .bold {
   font-weight: bold;
+  background-color: blue;
+  
 }
