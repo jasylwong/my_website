@@ -6,7 +6,7 @@ import Nav from 'react-bootstrap/Nav';
 function NavBar() {
   return (
     <div class="bold">
-      <Navbar bg="light" variant="light">
+      <Navbar bg="dark" variant="dark">
         {/* <img src={yin_yang} alt="logo" height="20"/> */}
         <Navbar.Brand href="/">Jason Wong</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

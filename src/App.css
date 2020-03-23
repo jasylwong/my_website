@@ -35,7 +35,7 @@
   display: block;
   margin: auto;
   width: 93%;
-  border: 1px rgb(177, 173, 173) solid;
+  border: 1.5px rgb(177, 173, 173) solid;
 }
 
 .polaroid p{
@@ -46,9 +46,14 @@
 }
 
 .about-text {
-  border: 1px solid lightgrey;
+  border: 2px solid lightgrey;
+  border-radius: 10px;
   padding: 30px;
-  background: rgb(220, 246, 255);
+  background: #E55D87;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #5FC3E4, #E55D87);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #5FC3E4, #E55D87); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: white;
   width: 600px;
 }
 
@@ -71,14 +76,14 @@
   width: 100vw;
   height: 100vh;
   object-fit: fill;
-  opacity: 65%;
+  opacity: 85%;
   /* filter: grayscale(50%);
   filter: blur(5px);
 filter: brightness(0.4);
 filter: contrast(200%);
 filter: drop-shadow(16px 16px 20px blue);
 filter: grayscale(50%); */
-filter: hue-rotate(35deg);
+filter: hue-rotate(0deg);
 /* filter: invert(75%);
 filter: opacity(25%);
 filter: saturate(30%);
@@ -98,3 +103,34 @@ filter: sepia(60%); */
 .container img{
   width: 80px;
 }
+
+.slide {
+  width: 95%;
+  background: lightblue;
+  height: 60vh;
+  /* opacity: 20%; */
+  left: 2.5%;
+}
+
+.slide2 {
+  width: 100vw;
+  background: pink;
+  height: 60vh;
+}
+
+.slide3 {
+  width: 100vw;
+  background: lightgreen;
+  height: 60vh;
+}
+
+.card_text {
+  color: black;
+}
+
+.slide_class {
+  display: flex;
+  justify-content: space-between;
+}
+
+

@@ -32,6 +32,10 @@ class Contact extends React.Component {
   render() {
     const { name, email, message } = this.state;
     return(
+      <div>
+      <br></br>
+      <h1 class="titles">Fancy a chat?</h1>
+      <br></br>
       <form onSubmit={this.handleSubmit} name="contact" data-netlify="true" data-netlify-honeypot="bot-field">
         <input type="hidden" name="form-name" value="contact" />
         <p>
@@ -53,6 +57,7 @@ class Contact extends React.Component {
           <button type="submit">Send</button>
         </p>
       </form>
+      </div>
     )
   }
 }

@@ -19,17 +19,17 @@ function Projects() {
       <h1 class="titles">Projects</h1>
       <br></br>
       <CardDeck>
-        <Project title={"Movie Database"} image={movie_database} border={'light'} bg={'primary'} 
+        <Project title={"Movie Database"} image={movie_database} border={'primary'} bg={'light'} 
           href_app={'#'} href_code={'#'} 
           text={'Lights! Camera! (Re)Act-ion! A single-page React app for searching movies, using the OMDB API.'} 
         />
 
-        <Project title={"News Summary"} image={front_page_news_summary} border={'light'} bg={'warning'} 
+        <Project title={"News Summary"} image={front_page_news_summary} border={'warning'} bg={'light'} 
           href_app={'#'} href_code={'#'} 
           text={'Extra! Extra! Read all about it! App listing news headlines and summarising the article contents gets deployed!'} 
         />
 
-        <Project title={"Notes App"} image={note_app} border={'light'} bg={'success'} 
+        <Project title={"Notes App"} image={note_app} border={'success'} bg={'light'} 
           href_app={'http://note-app-js.surge.sh/'} href_code={'https://github.com/jasylwong/noteApp'} 
           text={'Note to self: check out this app for creating a list of notes, which also changes colour on each click.'} 
         />
@@ -38,17 +38,17 @@ function Projects() {
       <br></br>
 
       <CardDeck>
-      <Project title={"Rock, Paper, Scissors ... Spock, Lizard?"} image={rps_sl} border={'light'} bg={'danger'} 
+      <Project title={"Rock, Paper, Scissors ... Spock, Lizard?"} image={rps_sl} border={'danger'} bg={'light'} 
         href_app={'#'} href_code={'#'} 
         text={'A Star Tr-excellent variation on the traditional two player game.'} 
       />
 
-      <Project title={"Acebook"} image={catflap_acebook} border={'light'} bg={'info'} 
+      <Project title={"Acebook"} image={catflap_acebook} border={'info'} bg={'light'} 
         href_app={'http://catflap-acebook.herokuapp.com/'} href_code={'https://github.com/Kefuri/acebook-catflap'} 
         text={'Step through the flap, to experience our app! Our team\'s take on the largest social networking site.'} 
       />
 
-      <Project title={"Makers Final Project"} image={coming_soon} border={'light'} bg={'secondary'} 
+      <Project title={"Makers Final Project"} image={coming_soon} border={'secondary'} bg={'light'} 
         href_app={'#'} href_code={'#'} 
         text={'Coming soon to a website near you...'} 
       />
