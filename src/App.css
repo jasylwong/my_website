@@ -90,6 +90,10 @@ filter: saturate(30%);
 filter: sepia(60%); */
 }
 
+.land {
+  width: 10vw;
+}
+
 .bold {
   font-weight: bold;
   background-color: blue;  
