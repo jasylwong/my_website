@@ -71,7 +71,7 @@ background: linear-gradient(to right, #5FC3E4, #E55D87); /* W3C, IE 10+/ Edge, F
   margin: auto;
 }
 
-#landing-pic {
+.landing-pic {
   display: block;
   width: 100vw;
   height: 100vh;
