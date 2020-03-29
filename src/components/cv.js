@@ -56,6 +56,7 @@ function CV() {
             </CardDeck>
           </Carousel.Caption>
         </Carousel.Item>
+
         <Carousel.Item>
           <div class="slide2"></div>
           <Carousel.Caption>
@@ -63,6 +64,7 @@ function CV() {
             <p>A few highlights from my working life. For more detail, see the GitHub/Linkedin links below.</p>
           </Carousel.Caption>
         </Carousel.Item>
+        
         <Carousel.Item>
           <div class="slide3"></div>
 
