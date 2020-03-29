@@ -72,12 +72,12 @@ background: linear-gradient(to right, #5FC3E4, #E55D87); /* W3C, IE 10+/ Edge, F
 }
 
 .landing-pic {
-  display: flex;
+  /* display: flex; */
   /* width: 100vw; */
   width: 100%;
   height: 95vh;
   /* height: 100vh; */
-  object-fit: fill;
+  /* object-fit: fill; */
   opacity: 75%;
   /* filter: grayscale(50%);
   filter: blur(5px);
