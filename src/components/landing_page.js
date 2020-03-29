@@ -9,6 +9,9 @@ function LandingPage() {
       <div>
         <img id="landing-pic" src="https://images.pexels.com/photos/775907/pexels-photo-775907.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="desk" />
       </div>
+      <div>
+        <img src="https://images.pexels.com/photos/775907/pexels-photo-775907.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="desk" />
+      </div>
       <div class="polaroid">
           <img src="https://images.pexels.com/photos/775907/pexels-photo-775907.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="desk" />
           <img src={Me} alt="me"/>
