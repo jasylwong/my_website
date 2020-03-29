@@ -72,6 +72,10 @@ background: linear-gradient(to right, #5FC3E4, #E55D87); /* W3C, IE 10+/ Edge, F
 }
 
 .landing_pic {
+
+}
+
+.land {
   display: block;
   width: 100vw;
   height: 100vh;
@@ -88,10 +92,6 @@ filter: hue-rotate(0deg);
 filter: opacity(25%);
 filter: saturate(30%);
 filter: sepia(60%); */
-}
-
-.land {
-  width: 10vw;
 }
 
 .bold {
