@@ -165,10 +165,10 @@ function CV() {
       <br></br>
       <br></br>
       <div class="container">
-          <a href="https://github.com/jasylwong/cv" target="_blank" alt="github"><img src={github} /></a>
-          <a href="https://www.linkedin.com/in/jasylwong/" target="_blank" alt="linkedin"><img src={linkedin} /></a>
-          <a href="https://www.codewars.com/users/jasylwong" target="_blank" alt="codewars"><img src={codewars} /></a>
-          <a href="https://medium.com/@jasylwong" target="_blank" alt="medium"><img src={Monogram} /></a>
+          <a href="https://github.com/jasylwong/cv" target="_blank"><img src={github} alt="github" /></a>
+          <a href="https://www.linkedin.com/in/jasylwong/" target="_blank"><img src={linkedin}  alt="linkedin" /></a>
+          <a href="https://www.codewars.com/users/jasylwong" target="_blank"><img src={codewars} alt="codewars" /></a>
+          <a href="https://medium.com/@jasylwong" target="_blank"><img src={Monogram} alt="medium" /></a>
       </div>
     </div>
   )
