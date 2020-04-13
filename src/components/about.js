@@ -31,9 +31,7 @@ function About() {
           </p>
         </div>
       </div>
-      <br></br>
     </div>
-    
   )
 }
 

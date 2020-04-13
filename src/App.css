@@ -47,7 +47,7 @@
 }
 
 .about-container {
-  transform: translateY(20%);
+  transform: translateY(10%);
   display: flex;
   justify-content: space-around;
 }
