@@ -8,7 +8,7 @@ import front_page_news_summary from '../images/front_page_news_summary.png';
 import note_app from '../images/note_app.png';
 import rps_sl from '../images/rps_sl.png';
 import catflap_acebook from '../images/catflap_acebook.png';
-import coming_soon from '../images/coming_soon.jpg';
+import wepick from '../images/wepick.png';
 
 import '../App.css'
 
@@ -19,13 +19,13 @@ function Projects() {
       <h1 class="titles">Projects</h1>
       <br></br>
       <CardDeck>
-        <Project title={"Movie Database"} image={movie_database} border={'primary'} bg={'light'} 
-          href_app={'#'} href_code={'#'} 
-          text={'Lights! Camera! (Re)Act-ion! A single-page React app for searching movies, using the OMDB API.'} 
+        <Project title={"WePick"} image={wepick} border={'primary'} bg={'light'} 
+          href_app={'https://wepick.herokuapp.com/'} href_code={'https://github.com/jasylwong/wepick'} 
+          text={'Our Makers final project! An app to help you and your friends pick which movie to watch in a fun and interactive way.'} 
         />
 
         <Project title={"News Summary"} image={front_page_news_summary} border={'warning'} bg={'light'} 
-          href_app={'#'} href_code={'#'} 
+          href_app={'http://news-summary-js.surge.sh/'} href_code={'https://github.com/jasylwong/news-summary-challenge'} 
           text={'Extra! Extra! Read all about it! App listing news headlines and summarising the article contents gets deployed!'} 
         />
 
@@ -38,21 +38,20 @@ function Projects() {
       <br></br>
 
       <CardDeck>
-      <Project title={"Rock, Paper, Scissors ... Spock, Lizard?"} image={rps_sl} border={'danger'} bg={'light'} 
-        href_app={'#'} href_code={'#'} 
-        text={'A Star Tr-excellent variation on the traditional two player game.'} 
-      />
+        <Project title={"Rock, Paper, Scissors ... Spock, Lizard?"} image={rps_sl} border={'danger'} bg={'light'} 
+          href_app={'#'} href_code={'https://github.com/jasylwong/rps-challenge'} 
+          text={'A Star Tr-excellent variation on the traditional two player game.'} 
+        />
 
-      <Project title={"Acebook"} image={catflap_acebook} border={'info'} bg={'light'} 
-        href_app={'http://catflap-acebook.herokuapp.com/'} href_code={'https://github.com/Kefuri/acebook-catflap'} 
-        text={'Step through the flap, to experience our app! Our team\'s take on the largest social networking site.'} 
-      />
+        <Project title={"Acebook"} image={catflap_acebook} border={'info'} bg={'light'} 
+          href_app={'http://catflap-acebook.herokuapp.com/'} href_code={'https://github.com/Kefuri/acebook-catflap'} 
+          text={'Step through the flap, to experience our app! Our team\'s take on the largest social networking site.'} 
+        />
 
-      <Project title={"Makers Final Project"} image={coming_soon} border={'secondary'} bg={'light'} 
-        href_app={'#'} href_code={'#'} 
-        text={'Coming soon to a website near you...'} 
-      />
-
+        <Project title={"Movie Database"} image={movie_database} border={'seoncdary'} bg={'light'} 
+          href_app={'#'} href_code={'#'} 
+          text={'Lights! Camera! (Re)Act-ion! A single-page React app for searching movies, using the OMDB API.'} 
+        />
       </CardDeck>
       <br></br>
 

@@ -36,7 +36,7 @@ class Contact extends React.Component {
       <br></br>
       <h1 class="titles">Fancy a chat?</h1>
       <br></br>
-        Me too. Fill out the form below, and I'll get back to you as soon as possible.
+        Me too. Fill out the form below, and I'll holla back as soon as possible.
       <br></br>
       <br></br>
       <form onSubmit={this.handleSubmit} name="contact" data-netlify="true" data-netlify-honeypot="bot-field">
