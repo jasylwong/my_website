@@ -39,7 +39,7 @@ function Projects() {
 
       <CardDeck>
         <Project title={"Rock, Paper, Scissors ... Spock, Lizard?"} image={rps_sl} border={'danger'} bg={'light'} 
-          href_app={'#'} href_code={'https://github.com/jasylwong/rps-challenge'} 
+          href_app={'https://rockpaperscissors-spocklizard.herokuapp.com/'} href_code={'https://github.com/jasylwong/rps-challenge'} 
           text={'A Star Tr-excellent variation on the traditional two player game.'} 
         />
 

@@ -10,13 +10,12 @@ class Project extends Component {
       <Card.Header as="h5">{this.props.title}</Card.Header>
       <Card.Img variant="top" src={this.props.image} />
       <Card.Body>
-        {/* <Card.Title>{this.props.title}</Card.Title> */}
         <Card.Text>
           {this.props.text}
         </Card.Text>
         <div class="card-links">
-          <Button variant={this.props.border} href={this.props.href_app}>The app!</Button>
-          <Button variant={this.props.border} href={this.props.href_code}>The code!</Button>
+          <Button variant={this.props.border} href={this.props.href_app} target="_blank">The app!</Button>
+          <Button variant={this.props.border} href={this.props.href_code} target="_blank">The code!</Button>
         </div>
       </Card.Body>
     </Card>
