@@ -5,7 +5,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 60px;
+  font-size: 50px;
   font-weight: bold;
 }
 
@@ -20,11 +20,11 @@
 .white-box {
   background-color: white;
   color: #343a41;
-  width: 30vw;
-  height: 30vh;
+  width: 36vw;
+  height: 36vh;
   position:absolute;
-  top: 35vh;
-  left: 35vw;
+  top: 32vh;
+  left: 32vw;
   text-align: center;
   border-radius: 5px;
   border: 2px solid #343a41;
@@ -139,20 +139,20 @@ filter: sepia(60%); */
 .slide {
   width: 95%;
   background: lightblue;
-  height: 60vh;
+  height: 58vh;
   left: 2.5%;
 }
 
 .slide2 {
   width: 100vw;
   background: pink;
-  height: 60vh;
+  height: 58vh;
 }
 
 .slide3 {
   width: 100vw;
   background: lightgreen;
-  height: 60vh;
+  height: 58vh;
 }
 
 .card_text {

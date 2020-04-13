@@ -20,39 +20,37 @@ function CV() {
           <div class="slide"></div>
           <Carousel.Caption>
             <h3>Education</h3>
-            <p>A few highlights from my education. For more detail, see the GitHub/LinkedIn links below.</p><br></br>
+            <p>A few highlights from my education. For more detail, see the GitHub/LinkedIn links below.</p>
             <CardDeck class="slide_class">
 
-              <Card style={{ width: '20rem' }}>
+              <Card style={{ width: '19rem' }}>
                 <Card.Body>
                   <Card.Subtitle className="mb-2 text-muted">Makers Academy</Card.Subtitle>
                   <Card.Text class="card_text">
                     <br></br>
                     <ul>
                       <li>OOP, TDD and MVC</li><br></br>
-                      <li>Languages: Ruby, JavaScript, SQL</li><br></br>
-                      <li>Testing frameworks: RSpec, Jasmine</li><br></br>
-                      <li>Other frameworks/libraries: Rails, Sinatra, jQuery</li>
+                      <li>Languages: Ruby (Rails), JavaScript (React, jQuery), SQL</li><br></br>
+                      <li>Testing frameworks: RSpec, Jasmine</li>
                     </ul>
                   </Card.Text>                  
                 </Card.Body>
               </Card>
 
-              <Card style={{ width: '20rem' }}>
+              <Card style={{ width: '19rem' }}>
                 <Card.Body>
                   <Card.Subtitle className="mb-2 text-muted">University of Warwick</Card.Subtitle>
                   <Card.Text class="card_text">
                     <br></br>
                     <ul>
                       <li>MMORSE (Master's in Mathematics, Operational Research, Statistics & Economics) (2:1)</li><br></br>
-                      <li>Dissertation: A meta-analysis of the effects of the MMR vaccine on children (1st)</li><br></br>
-                      <li>Big Band Society treasurer</li>
+                      <li>Dissertation: A meta-analysis of the effects of the MMR vaccine on children (1st)</li>
                     </ul>
                   </Card.Text>                  
                 </Card.Body>
               </Card>
               
-              <Card style={{ width: '20rem' }}>
+              <Card style={{ width: '19rem' }}>
                 <Card.Body>
                   <Card.Subtitle className="mb-2 text-muted">Bancroft's School</Card.Subtitle>
                   <Card.Text class="card_text">
@@ -74,17 +72,16 @@ function CV() {
           <div class="slide2"></div>
           <Carousel.Caption>
             <h3>Experience</h3>
-            <p>A few highlights from my working life. For more detail, see the GitHub/LinkedIn links below.</p><br></br>
+            <p>A few highlights from my working life. For more detail, see the GitHub/LinkedIn links below.</p>
             <CardDeck class="slide_class">
 
-              <Card style={{ width: '20rem' }}>
+              <Card style={{ width: '19rem' }}>
                 <Card.Body>
                   <Card.Title className="mb-2 text-muted">Brit Insurance</Card.Title>
-                  <Card.Subtitle className="mb-2 text-muted">Enterprise Risk Management Actuary</Card.Subtitle>
+                  <Card.Subtitle className="mb-2 text-muted">Enterprise Risk Management Actuary (FIA)</Card.Subtitle>
                   <Card.Text class="card_text">
                     <br></br>
                     <ul>
-                      <li>Fully qualified Fellow of the IFoA</li><br></br>
                       <li>Validation of the Internal Capital Model</li><br></br>
                       <li>Co-ordination of the Risk Oversight Committee</li><br></br>
                     </ul>
@@ -92,7 +89,7 @@ function CV() {
                 </Card.Body>
               </Card>
 
-              <Card style={{ width: '20rem' }}>
+              <Card style={{ width: '19rem' }}>
                 <Card.Body>
                   <Card.Title className="mb-2 text-muted">Mercer</Card.Title>
                   <Card.Subtitle className="mb-2 text-muted">Investment analyst</Card.Subtitle>
@@ -100,20 +97,20 @@ function CV() {
                     <br></br>
                     <ul>
                       <li>Investment Management Certificate holder</li><br></br>
-                      <li>Analysis of the investment risk profiles of clients and pension funds</li><br></br>
+                      <li>Analysis of the investment risk profiles of clients and pension funds</li>
                     </ul>
                   </Card.Text>                  
                 </Card.Body>
               </Card>
 
-              <Card style={{ width: '20rem' }}>
+              <Card style={{ width: '19rem' }}>
                 <Card.Body>
                   <Card.Title className="mb-2 text-muted">Suzhou Education Association</Card.Title>
                   <Card.Subtitle className="mb-2 text-muted">English teacher (TEFL certified)</Card.Subtitle>
                   <Card.Text class="card_text">
                     <br></br>
                     <ul>
-                      <li>Teaching English as a foreign language to classes of middle school students as a representative of the British Council</li><br></br>
+                      <li>Teaching English to middle school students</li><br></br>
                       <li>Received ‘Exceptional performance’ award</li>
                     </ul>
                   </Card.Text> 
@@ -129,25 +126,25 @@ function CV() {
 
           <Carousel.Caption>
             <h3>Skills and interests</h3>
-            <p>Some of my skillsets and hobbies. For more detail, see the GitHub/LinkedIn links below. Or come have a chat :)</p><br></br>
+            <p>Some of my skillsets and hobbies. For more detail, see the GitHub/LinkedIn links below. Or come have a chat :)</p>
             <CardDeck class="slide_class">
 
-              <Card style={{ width: '31rem' }}>
+              <Card style={{ width: '29rem' }}>
                 <Card.Body>
                   <Card.Title className="mb-2 text-muted">Skills</Card.Title>
                   <Card.Text class="card_text">
                     <br></br>
                     <ul>
                       <li>Excellent communicator, presenter and mentor</li><br></br>
-                      <li>Self-reliant individual and significantly contributory team member</li><br></br>
+                      <li>Self-reliant individual but effective team member</li><br></br>
                       <li>Fast learner, effective time keeping skills, and experienced project management</li><br></br>
-                      <li>Highly analytical thinker and innovative problem solver</li>
+                      <li>Analytical thinker and innovative problem solver</li>
                     </ul>
                   </Card.Text>                  
                 </Card.Body>
               </Card>
 
-              <Card style={{ width: '31rem' }}>
+              <Card style={{ width: '29rem' }}>
                 <Card.Body>
                   <Card.Title className="mb-2 text-muted">Interests</Card.Title>
                   <Card.Text class="card_text">
@@ -155,8 +152,7 @@ function CV() {
                     <ul>
                       <li>Swimming: Captain of the school swimming team, qualified lifeguard and ASA Level 1 swimming teacher</li><br></br>
                       <li>Music: Ex-professional bassist and grade 6 pianist</li><br></br>
-                      <li>Travelling and languages: Chinese Mandarin (Basic business proficiency, HSK level 5)</li><br></br>
-                      <li>Drawing: Graphnic novel enthusiast and casual sketcher</li>
+                      <li>Travelling and languages: Chinese Mandarin (Basic business proficiency, HSK level 5)</li>
                     </ul>
                   </Card.Text> 
                 </Card.Body>
@@ -169,10 +165,10 @@ function CV() {
       <br></br>
       <br></br>
       <div class="container">
-          <a href="https://github.com/jasylwong/cv" target="_blank"><img src={github} /></a>
-          <a href="https://www.linkedin.com/in/jasylwong/" target="_blank"><img src={linkedin} /></a>
-          <a href="https://www.codewars.com/users/jasylwong" target="_blank"><img src={codewars} /></a>
-          <a href="https://medium.com/@jasylwong" target="_blank"><img src={Monogram} /></a>
+          <a href="https://github.com/jasylwong/cv" target="_blank" alt="github"><img src={github} /></a>
+          <a href="https://www.linkedin.com/in/jasylwong/" target="_blank" alt="linkedin"><img src={linkedin} /></a>
+          <a href="https://www.codewars.com/users/jasylwong" target="_blank" alt="codewars"><img src={codewars} /></a>
+          <a href="https://medium.com/@jasylwong" target="_blank" alt="medium"><img src={Monogram} /></a>
       </div>
     </div>
   )
