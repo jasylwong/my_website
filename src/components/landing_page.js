@@ -1,7 +1,4 @@
 import React from 'react';
-// import desk from '../images/desk.jpg';
-import japan from '../images/japan.JPG';
-import Me from '../images/D50_3710.jpg'
 
 function LandingPage() {
   return (
