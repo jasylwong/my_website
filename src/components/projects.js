@@ -48,7 +48,7 @@ function Projects() {
           text={'Step through the flap, to experience our app! Our team\'s take on the largest social networking site.'} 
         />
 
-        <Project title={"Movie Database"} image={movie_database} border={'seoncdary'} bg={'light'} 
+        <Project title={"Movie Database"} image={movie_database} border={'secondary'} bg={'light'} 
           href_app={'#'} href_code={'#'} 
           text={'Lights! Camera! (Re)Act-ion! A single-page React app for searching movies, using the OMDB API.'} 
         />
