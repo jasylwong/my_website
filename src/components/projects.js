@@ -3,12 +3,14 @@ import Project from './project';
 
 import CardDeck from 'react-bootstrap/CardDeck';
 
-import movie_database from '../images/movie_database.png';
+import wepick from '../images/wepick.png';
 import front_page_news_summary from '../images/front_page_news_summary.png';
 import note_app from '../images/note_app.png';
 import rps_sl from '../images/rps_sl.png';
 import catflap_acebook from '../images/catflap_acebook.png';
-import wepick from '../images/wepick.png';
+import bank_tech_test from '../images/bank_tech_test.png';
+import movie_database from '../images/movie_database.png';
+
 
 import '../App.css'
 
@@ -48,8 +50,8 @@ function Projects() {
           text={'Step through the flap, to experience our app! Our team\'s take on the largest social networking site.'} 
         />
 
-        <Project title={"Movie Database"} image={movie_database} border={'secondary'} bg={'light'} 
-          href_app={'#'} href_code={'#'} 
+        <Project title={"Bank tech test"} image={bank_tech_test} border={'secondary'} bg={'light'} 
+          href_app={'#'} href_code={'https://github.com/jasylwong/bank_tech_test'} 
           text={'Lights! Camera! (Re)Act-ion! A single-page React app for searching movies, using the OMDB API.'} 
         />
       </CardDeck>
