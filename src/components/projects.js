@@ -2,6 +2,8 @@ import React from 'react';
 import Project from './project';
 
 import CardDeck from 'react-bootstrap/CardDeck';
+import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button';
 
 import wepick from '../images/wepick.png';
 import front_page_news_summary from '../images/front_page_news_summary.png';
@@ -50,10 +52,18 @@ function Projects() {
           text={'Step through the flap, to experience our app! Our team\'s take on the largest social networking site.'} 
         />
 
-        <Project title={"Bank tech test"} image={bank_tech_test} border={'secondary'} bg={'light'} 
-          href_app={'#'} href_code={'https://github.com/jasylwong/bank_tech_test'} 
-          text={'Thank you for opening an account with Jasonwide building society. An app simulating creation og a bank account for a tech test.'} 
-        />
+        <Card style={{ width: '18rem' }} border={'secondary'} bg={'light'}>
+          <Card.Header as="h5">{"Bank tech test"}</Card.Header>
+          <Card.Img variant="top" src={bank_tech_test} />
+          <Card.Body>
+            <Card.Text>
+              'Thank you for opening an account with Jasonwide building society. An app simulating creation og a bank account for a tech test.'
+            </Card.Text>
+            <div class="card-links">
+              <Button variant={'secondary'} href={'https://github.com/jasylwong/bank_tech_test'} target="_blank">The code!</Button>
+            </div>
+          </Card.Body>
+        </Card>
       </CardDeck>
       <br></br>
 
