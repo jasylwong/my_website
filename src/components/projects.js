@@ -57,7 +57,7 @@ function Projects() {
           <Card.Img variant="top" src={bank_tech_test} />
           <Card.Body>
             <Card.Text>
-              'Thank you for opening an account with Jasonwide building society. An app simulating creation og a bank account for a tech test.'
+              Thank you for opening an account with Jasonwide building society. An app simulating creation og a bank account for a tech test.
             </Card.Text>
             <div class="card-links">
               <Button variant={'secondary'} href={'https://github.com/jasylwong/bank_tech_test'} target="_blank">The code!</Button>
