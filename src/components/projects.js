@@ -11,8 +11,6 @@ import note_app from '../images/note_app.png';
 import rps_sl from '../images/rps_sl.png';
 import catflap_acebook from '../images/catflap_acebook.png';
 import bank_tech_test from '../images/bank_tech_test.png';
-import movie_database from '../images/movie_database.png';
-
 
 import '../App.css'
 
