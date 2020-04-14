@@ -52,7 +52,7 @@ function Projects() {
 
         <Project title={"Bank tech test"} image={bank_tech_test} border={'secondary'} bg={'light'} 
           href_app={'#'} href_code={'https://github.com/jasylwong/bank_tech_test'} 
-          text={'Lights! Camera! (Re)Act-ion! A single-page React app for searching movies, using the OMDB API.'} 
+          text={'Thank you for opening an account with Jasonwide building society. An app simulating creation og a bank account for a tech test.'} 
         />
       </CardDeck>
       <br></br>
