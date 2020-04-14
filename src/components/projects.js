@@ -66,8 +66,6 @@ function Projects() {
         </Card>
       </CardDeck>
       <br></br>
-
-
       <br></br>
     </div>
   )
