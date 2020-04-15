@@ -167,5 +167,10 @@ filter: sepia(60%); */
 
 .success-msg {
   color: green;
-  
+  padding: 10px 15px;
+}
+
+.err-msg {
+  color: red;
+  padding: 10px 15px;
 }
