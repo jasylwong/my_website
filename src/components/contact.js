@@ -28,7 +28,9 @@ class Contact extends React.Component {
     })
   }
 
-  
+  handleSubmit = (event) => {
+    
+  }
 
   render() {
     return(
