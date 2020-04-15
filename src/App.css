@@ -166,5 +166,6 @@ filter: sepia(60%); */
 }
 
 .success-msg {
+  color: green;
   
 }
