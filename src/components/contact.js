@@ -15,13 +15,18 @@ class Contact extends React.Component {
       emailSent: 'null',
     }
   }
+
+  handleChange = (event) => {
+    console.log(event);
+  }
+
   render() {
     return(
       <div>
         <br></br>
         <h1 class="titles">Fancy a chat?</h1>
         <div>
-          <Form>
+          <Form onSubmit={this.handleSubmit}>
             <Form.Group>
               <Form.Label htmlFor="full-name">Full name:</Form.Label>
               <Form.Control id="full-name" name="name" type="text" value={this.state.name} onChange={this.handleChange} />
@@ -38,6 +43,9 @@ class Contact extends React.Component {
             </Form.Group>
 
             <Button className="d-inline-block" variant="primary" type="submit" disabled={this.state.disabled}>Send message</Button>
+
+            {this.state.emailSent === true && <p className="d-inline success-msg">Email sent</p>}
+            {this.state.emailSent === false && <p className="d-inline err-msg">Email not sent</p>}
           </Form>
         </div>
       </div>
