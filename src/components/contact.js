@@ -11,7 +11,7 @@ class ContactPage extends React.Component {
                 <div class="contact-form">
                     <p>
                         So would I. A contact form is currently being built, but for now
-                        get in touch at <strong>jasylwong@gmail.com</strong>, and I'll holla back as soon as possible.
+                        get in touch using <strong>jasylwong@gmail.com</strong>, and I'll holla back as soon as possible.
                     </p>
                 </div>
             </div>
