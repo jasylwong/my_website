@@ -18,3 +18,5 @@ app.use((req, res, next) => {
 app.get('/api', (req, res, next) => {
   res.send('API Status: Running')
 })
+
+app.listen(3030, '0.0.0.0')
