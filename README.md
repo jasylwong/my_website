@@ -22,3 +22,12 @@ $ npm start
 
 ## <a name="further_work">Further work</a>
 
+- Make the website more responsive, to deal better with being
+visited on a wider range of devices
+- Include a more dynamic landing page
+- Add a 'Collaboration' page, to share the work of some of my
+very talented photographer/artist/dev friends
+- Add a contact form on the 'Contact' page
+- 
+
+
