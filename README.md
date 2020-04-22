@@ -29,5 +29,6 @@ visited on a wider range of devices
 very talented photographer/artist/dev friends
 - Add a contact form on the 'Contact' page
 - Add more projects, both those already completed and those created in the future.
+- Add a footer to each page
 
 
