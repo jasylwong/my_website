@@ -28,6 +28,6 @@ visited on a wider range of devices
 - Add a 'Collaboration' page, to share the work of some of my
 very talented photographer/artist/dev friends
 - Add a contact form on the 'Contact' page
-- 
+- Add more projects, both those already completed and those created in the future.
 
 
