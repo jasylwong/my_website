@@ -13,7 +13,7 @@ function About() {
           <p>Me trying to smile!</p>
         </div>
         <div class="about-text">
-          <h3>Hello world!</h3>
+          <h3>> console.log("Hello world!")</h3>
           <br></br>
           <p>
             I am a proactive and dynamic Full Stack Junior Developer. Having just graduated from 
