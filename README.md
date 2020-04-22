@@ -16,4 +16,9 @@ If you wish to run this on your local host and customise it, you can use the fol
 ```
 $ git clone https://github.com/jasylwong/my_website.git
 $ cd my_website
+$ npm install
+$ npm start
 ```
+
+## <a name="further_work">Further work</a>
+
