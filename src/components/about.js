@@ -16,8 +16,9 @@ function About() {
           <h3>Hello world!</h3>
           <br></br>
           <p>
-            I am a proactive and dynamic Full Stack Junior Developer, looking for my first role in the tech industry. 
-            I am currently enrolled in the software development programme at Makers Academy, one of the most discerning dev bootcamps in the world.
+            I am a proactive and dynamic Full Stack Junior Developer. Having just graduated from 
+            Makers Academy, one of the most discerning dev bootcamps in the world,
+            I am now looking for my first role in the tech industry. 
           </p>
           <p>
             At the end of 2018, I qualified as an actuary - a globally recognised qualification that is renowned for being particularly arduous 
