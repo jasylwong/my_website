@@ -23,7 +23,7 @@ export default function LandingPage() {
       <div className={classes.root}>
         <Grid container spacing={3}>
           <Grid item xs={12} sm={6}>
-            <img class="" src={Huang} alt="Japan" style={{ width: '20vw' }}/>
+            <img src={Huang} alt="Japan" style={{ width: '20vw' }}/>
           </Grid>
           <Grid item xs={12} sm={6}>
             <br />

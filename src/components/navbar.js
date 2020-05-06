@@ -66,12 +66,12 @@ export default function NavBar() {
       <AppBar position="static" className={classes.nav}>
         <Toolbar>
           <Typography variant="h6" className={classes.title}>
-              <Link href='/'><Button color={"black"}>Home</Button></Link>
+              <Link href='/'><Button>Home</Button></Link>
           </Typography>
-          <Link href='/about'><Button color={"black"}>About</Button></Link>
-          <Link href='/CV'><Button color={"black"}>Experience</Button></Link>
-          <Link href='/projects'><Button color={"black"}> Projects </Button></Link>
-          <Link href='/contact'><Button color={"black"}>Contact</Button></Link>
+          <Link href='/about'><Button>About</Button></Link>
+          <Link href='/CV'><Button>Experience</Button></Link>
+          <Link href='/projects'><Button> Projects </Button></Link>
+          <Link href='/contact'><Button>Contact</Button></Link>
         </Toolbar>
       </AppBar>
     </div>
