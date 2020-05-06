@@ -17,7 +17,6 @@ import '../App.css'
 function Projects() {
   return (
     <div>
-      <br></br>
       <h1 class="titles">Projects</h1>
       <br></br>
       <CardDeck>

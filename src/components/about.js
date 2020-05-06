@@ -5,7 +5,6 @@ import Me from '../images/D50_3710.jpg'
 function About() {
   return (
     <div>
-      <br></br>
       <h1 class="titles">About me</h1>
       <div class="about-container">
         <div class="polaroid">

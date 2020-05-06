@@ -12,7 +12,6 @@ import github from '../images/github.png';
 function CV() {
   return (
     <div>
-      <br></br>
       <h1 class="titles">Curriculum Vitae</h1>
       <br></br>
       <Carousel interval={null}>
