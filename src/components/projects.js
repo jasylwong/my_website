@@ -2,8 +2,6 @@ import React from 'react';
 import Project from './project';
 
 import CardDeck from 'react-bootstrap/CardDeck';
-import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
 
 import wepick from '../images/wepick.png';
 import front_page_news_summary from '../images/front_page_news_summary.png';
@@ -11,6 +9,7 @@ import note_app from '../images/note_app.png';
 import rps_sl from '../images/rps_sl.png';
 import catflap_acebook from '../images/catflap_acebook.png';
 import bank_tech_test from '../images/bank_tech_test.png';
+import thermostat from '../images/thermostat.png';
 
 import '../App.css'
 
@@ -54,6 +53,25 @@ function Projects() {
           text={'Step through the flap, to experience our app! Our team\'s take on the largest social networking site.'} 
         />
       </CardDeck>
+
+      {/* <br />
+
+      <CardDeck>
+        <Project title={"Thermostat"} image={thermostat} border={'primary'} bg={'light'} 
+          href_app={"http://thermostat-js.surge.sh/"} href_code={'https://github.com/jasylwong/thermostat'} 
+          text={'Crank that dial! A thermostat emulating app which also tells you the temperature of cities around the world using the OpenWeatherMap API.'} 
+        />
+
+        <Project title={"The Gilded Rose"} image={front_page_news_summary} border={'warning'} bg={'light'} 
+          href_app={'http://news-summary-js.surge.sh/'} href_code={'https://github.com/jasylwong/news-summary-challenge'} 
+          text={'Extra! Extra! Read all about it! App listing news headlines and summarising the article contents gets deployed!'} 
+        />
+
+        <Project title={"Recip-easy"} image={rps_sl} border={'success'} bg={'light'} 
+          href_app={'https://rockpaperscissors-spocklizard.herokuapp.com/'} href_code={'https://github.com/jasylwong/rps-challenge'} 
+          text={'Coming soon...'} 
+        />
+      </CardDeck> */}
 
       <br></br>
       <br></br>

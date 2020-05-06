@@ -1,6 +1,11 @@
 @import 'https://fonts.googleapis.com/css?family=Rock+Salt';
 @import 'https://fonts.googleapis.com/css2?family=Raleway';
 
+.raleway {
+  font-family: 'Raleway', sans-serif;
+}
+
+
 .titles {
   display: flex;
   justify-content: center;
@@ -103,27 +108,6 @@ background: linear-gradient(to right, #5FC3E4, #E55D87); /* W3C, IE 10+/ Edge, F
 .contact-form {
   width: 80%;
   margin: auto;
-}
-
-.landing-pic {
-  /* display: flex; */
-  /* width: 100vw; */
-  width: 100%;
-  height: 95vh;
-  /* opacity: 95%; */
-  /* height: 100vh; */
-  /* object-fit: fill; */
-  /* filter: grayscale(50%);
-  filter: blur(5px);
-filter: brightness(0.4);
-filter: contrast(200%);
-filter: drop-shadow(16px 16px 20px blue);
-filter: grayscale(50%);
-filter: hue-rotate(0deg);
-filter: invert(75%);
-filter: opacity(25%);
-filter: saturate(30%);
-filter: sepia(60%); */
 }
 
 .bold {
@@ -248,3 +232,4 @@ filter: sepia(60%); */
 .grid-item {
   text-align: center;
 }
+
