@@ -37,6 +37,8 @@
   position: relative;
   top: 10%;
   letter-spacing: 12px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
 }
 
 .white-box-job {
@@ -44,6 +46,8 @@
   color: #343a41;
   position: relative;
   top: 15%;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
 }
 
 .about-container {
@@ -177,11 +181,11 @@ filter: sepia(60%); */
 
 
 .fade-in {
-  animation: fadeIn ease 3s;
-  -webkit-animation: fadeIn ease 3s;
-  -moz-animation: fadeIn ease 3s;
-  -o-animation: fadeIn ease 3s;
-  -ms-animation: fadeIn ease 3s;
+  animation: fadeIn ease 4s;
+  -webkit-animation: fadeIn ease 4s;
+  -moz-animation: fadeIn ease 4s;
+  -o-animation: fadeIn ease 4s;
+  -ms-animation: fadeIn ease 4s;
 }
 
 @keyframes fadeIn {
@@ -227,4 +231,20 @@ filter: sepia(60%); */
   100% {
     opacity:1;
   }
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 90%;
+  height: 80vh;
+  /* border: blue solid 1px; */
+  margin-left: 5%;
+  margin-top: 5%;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+.grid-item {
+  text-align: center;
 }
