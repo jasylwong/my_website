@@ -3,24 +3,32 @@ import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 
 
-class Project extends Component {
-  render() {
+const Project = ({border, bg, title, text, image, href_app, href_code}) => {
+  const appLink = () => {
+    if (href_app !== null) {
+      return <Button variant={border} href={href_app} target="_blank">The app!</Button>
+    } else {
+      return null
+    }
+  }
+
   return (
-    <Card style={{ width: '18rem' }} border={this.props.border} bg={this.props.bg}>
-      <Card.Header as="h5">{this.props.title}</Card.Header>
-      <Card.Img variant="top" src={this.props.image} />
+    <Card style={{ width: '18rem' }} border={border} bg={bg}>
+      <Card.Header as="h5">
+        {title}
+      </Card.Header>
+      <Card.Img variant="top" src={image} />
       <Card.Body>
         <Card.Text>
-          {this.props.text}
+          {text}
         </Card.Text>
         <div class="card-links">
-          <Button variant={this.props.border} href={this.props.href_app} target="_blank">The app!</Button>
-          <Button variant={this.props.border} href={this.props.href_code} target="_blank">The code!</Button>
+          {appLink()}
+          <Button variant={border} href={href_code} target="_blank">The code!</Button>
         </div>
       </Card.Body>
     </Card>
   )
-  }
 }
 
 export default Project

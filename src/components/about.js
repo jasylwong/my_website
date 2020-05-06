@@ -40,8 +40,9 @@ function About() {
 
                 > Makers Academy graduate, qualified actuary. */}
               <p>
-                I am a Full Stack software developer, Makers Academy graduate, and qualified actuary.<br /><br />
-                I am Always striving for self-improvement and a career where I can help move the world forward via tech. <br /><br />
+                I am a <strong>Full Stack software developer</strong>, <strong>Makers Academy graduate</strong>, 
+                and <strong>qualified actuary</strong>.<br /><br />
+                I am always striving for self-improvement and a career where I can help move the world forward via tech. <br /><br />
                 Now I am eager to use my driven nature and adept programming skills to help companies who share these values.<br />
               </p><br />
               <h4>Tech stack:</h4><br />

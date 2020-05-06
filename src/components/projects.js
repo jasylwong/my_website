@@ -30,38 +30,31 @@ function Projects() {
           text={'Extra! Extra! Read all about it! App listing news headlines and summarising the article contents gets deployed!'} 
         />
 
-        <Project title={"Notes App"} image={note_app} border={'success'} bg={'light'} 
-          href_app={'http://note-app-js.surge.sh/'} href_code={'https://github.com/jasylwong/noteApp'} 
-          text={'Note to self: check out this app for creating a list of notes, which also changes colour on each click.'} 
+        <Project title={"Rock, Paper, Scissors ... Spock, Lizard?"} image={rps_sl} border={'success'} bg={'light'} 
+          href_app={'https://rockpaperscissors-spocklizard.herokuapp.com/'} href_code={'https://github.com/jasylwong/rps-challenge'} 
+          text={'A Star Tr-excellent variation on the traditional two player game.'} 
         />
       </CardDeck>
 
       <br></br>
 
       <CardDeck>
-        <Project title={"Rock, Paper, Scissors ... Spock, Lizard?"} image={rps_sl} border={'danger'} bg={'light'} 
-          href_app={'https://rockpaperscissors-spocklizard.herokuapp.com/'} href_code={'https://github.com/jasylwong/rps-challenge'} 
-          text={'A Star Tr-excellent variation on the traditional two player game.'} 
+        <Project title={"Bank tech test"} image={bank_tech_test} border={'danger'} bg={'light'} 
+          href_app={null} href_code={'https://github.com/jasylwong/bank_tech_test'} 
+          text={'Thank you for opening an account with Jasonwide building society. An app simulating creation of a bank account for a tech test.'} 
         />
 
-        <Project title={"Acebook"} image={catflap_acebook} border={'info'} bg={'light'} 
+        <Project title={"Notes App"} image={note_app} border={'info'} bg={'light'} 
+          href_app={'http://note-app-js.surge.sh/'} href_code={'https://github.com/jasylwong/noteApp'} 
+          text={'Note to self: check out this app for creating a list of notes, which also changes colour on each click.'} 
+        />
+
+        <Project title={"Acebook"} image={catflap_acebook} border={'secondary'} bg={'light'} 
           href_app={'http://catflap-acebook.herokuapp.com/'} href_code={'https://github.com/Kefuri/acebook-catflap'} 
           text={'Step through the flap, to experience our app! Our team\'s take on the largest social networking site.'} 
         />
-
-        <Card style={{ width: '18rem' }} border={'secondary'} bg={'light'}>
-          <Card.Header as="h5">{"Bank tech test"}</Card.Header>
-          <Card.Img variant="top" src={bank_tech_test} />
-          <Card.Body>
-            <Card.Text>
-              Thank you for opening an account with Jasonwide building society. An app simulating creation of a bank account for a tech test.
-            </Card.Text>
-            <div class="card-links">
-              <Button variant={'secondary'} href={'https://github.com/jasylwong/bank_tech_test'} target="_blank">The code!</Button>
-            </div>
-          </Card.Body>
-        </Card>
       </CardDeck>
+
       <br></br>
       <br></br>
     </div>
