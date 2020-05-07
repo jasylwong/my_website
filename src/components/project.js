@@ -3,7 +3,7 @@ import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 
 
-const Project = ({border, bg, title, text, image, href_app, href_code}) => {
+const Project = ({border, bg, title, text, image, href_app, href_code, stack}) => {
   const appLink = () => {
     if (href_app !== null) {
       return <Button variant={border} href={href_app} target="_blank">The app!</Button>
@@ -20,6 +20,7 @@ const Project = ({border, bg, title, text, image, href_app, href_code}) => {
       <Card.Img variant="top" src={image} />
       <Card.Body>
         <Card.Text>
+          <div style={{color: 'grey'}}>{stack}</div><br />
           {text}
         </Card.Text>
         <div class="card-links">
