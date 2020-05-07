@@ -5,13 +5,15 @@
   font-family: 'Raleway', sans-serif;
 }
 
-
 .titles {
+  font-size: 50px;
+  color: #343a41;
+  letter-spacing: 12px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 50px;
-  font-weight: bold;
 }
 
 #about_title {
@@ -22,24 +24,9 @@
   font-weight: bold;
 }
 
-.white-box {
-  background-color: white;
-  color: #343a41;
-  width: 36vw;
-  height: 36vh;
-  position:absolute;
-  top: 32vh;
-  left: 32vw;
-  text-align: center;
-  border-radius: 5px;
-  border: 2px solid #343a41;
-  font-family: 'Raleway', sans-serif;
-}
-
 .white-box-name {
   font-size: 50px;
   color: #343a41;
-  position: relative;
   top: 10%;
   letter-spacing: 12px;
   font-family: 'Raleway', sans-serif;
@@ -49,7 +36,6 @@
 .white-box-job {
   font-size: 25px;
   color: #343a41;
-  position: relative;
   top: 15%;
   font-family: 'Raleway', sans-serif;
   font-weight: bold;

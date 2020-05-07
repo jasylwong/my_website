@@ -16,6 +16,7 @@ import '../App.css'
 function Projects() {
   return (
     <div>
+      <br />
       <h1 class="titles">Projects</h1>
       <br></br>
       <CardDeck>

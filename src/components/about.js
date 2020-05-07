@@ -19,6 +19,7 @@ function About() {
 
   return (
     <div>
+      <br />
       <h1 className="titles">About me</h1>
       <div className={classes.root}>
         <Grid container spacing={3}>

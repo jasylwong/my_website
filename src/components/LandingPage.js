@@ -29,6 +29,7 @@ export default function LandingPage() {
             <br />
             <div className="white-box-name">Jason Wong</div><br></br>
             <div className="white-box-job">Software Engineer</div>
+            <button>Enter</button>
           </Grid>
         </Grid>
       </div>

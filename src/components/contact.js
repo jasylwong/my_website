@@ -4,8 +4,10 @@ class ContactPage extends React.Component {
   render() {
     return(
       <div>
-        <h1 class="titles">Fancy a chat?</h1>
-        <br></br>
+        <br />
+        <h1 className="titles">Fancy a chat?</h1>
+        <br />
+        <br />
         <div class="contact-form">
           <p>
             So would I. Get in touch using <strong><a href="mailto:jasylwong@gmail.com">jasylwong@gmail.com</a></strong>, 
