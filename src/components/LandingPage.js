@@ -27,9 +27,10 @@ export default function LandingPage() {
           </Grid>
           <Grid item xs={12} sm={6}>
             <br />
-            <div className="white-box-name">Jason Wong</div><br></br>
-            <div className="white-box-job">Software Engineer</div>
-            <button>Enter</button>
+            <div className="white-box-name">Jason Wong</div><br />
+            <div className="white-box-job">Software Engineer</div><br /><br />
+            {/* <button className="enterBtn"><a href="/" className="enterBtn">Enter</a></button> */}
+            <a href="/about" className="enterBtn">Enter</a>
           </Grid>
         </Grid>
       </div>

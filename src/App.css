@@ -1,6 +1,55 @@
 @import 'https://fonts.googleapis.com/css?family=Rock+Salt';
 @import 'https://fonts.googleapis.com/css2?family=Raleway';
 
+.enterBtn {
+  border: 2px solid red;
+  border-radius: 5px;
+  color: #343a41;
+  background: none;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  text-align: center;
+  padding: 10px 35px;
+  transition: 0.5s;
+  text-decoration: none !important;
+}
+
+.enterBtn:hover {
+  /* color: white;
+  background: red; */
+  box-shadow: 0 0 5px red, 0 0 10px red, 0 0 10px red;
+}
+
+/* .enterBtn::before, .enterBtn::after {
+  content: "";
+  background: blue;
+  position: static;
+  width: 20px;
+  height: 20px;
+  transform: skewX(50deg);
+  transition: .4s linear;
+}
+
+.enterBtn::before {
+  top: -4px;
+  left: 10%;
+}
+
+.enterBtn::after {
+  bottom: -4px;
+  right: 10%;
+}
+
+.enterBtn:hover::before {
+  left: 80%;
+}
+
+.enterBtn:hover::after {
+  right: 80%;
+} */
+
 .raleway {
   font-family: 'Raleway', sans-serif;
 }
@@ -39,6 +88,7 @@
   top: 15%;
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
+  letter-spacing: 6px;
 }
 
 .about-container {
