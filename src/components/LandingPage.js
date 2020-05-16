@@ -30,7 +30,7 @@ export default function LandingPage() {
             <div className="white-box-name">Jason Wong</div><br />
             <div className="white-box-job">Software Engineer</div><br /><br />
             {/* <button className="enterBtn"><a href="/" className="enterBtn">Enter</a></button> */}
-            <a href="/about" className="enterBtn">Enter</a>
+            <a href="/about" className="enterBtn">About me</a>
           </Grid>
         </Grid>
       </div>

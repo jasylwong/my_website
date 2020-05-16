@@ -269,3 +269,7 @@ background: linear-gradient(to right, #5FC3E4, #E55D87); /* W3C, IE 10+/ Edge, F
   text-align: center;
 }
 
+.project_image {
+  height: 15rem;
+}
+
