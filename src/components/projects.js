@@ -3,6 +3,9 @@ import Project from './project';
 
 import CardDeck from 'react-bootstrap/CardDeck';
 
+import full_stack_open from '../images/full_stack_open.jpeg';
+import code_review from '../images/code_review.png';
+import my_website from '../images/my_website.png';
 import wepick from '../images/wepick.png';
 import front_page_news_summary from '../images/front_page_news_summary.png';
 import note_app from '../images/note_app.png';
@@ -23,7 +26,29 @@ function Projects() {
     <div>
       <br />
       <h1 class="titles">Projects</h1>
-      <br></br>
+      <br />
+      <CardDeck>
+        <Project title={"Full Stack Open qualification"} image={full_stack_open} border={'primary'} bg={'light'} 
+          href_app={null} href_code={'https://github.com/jasylwong/full_stack_open'} 
+          text={'Studying for the Full Stack Web Development certificate offered by the University of Helsinki.'} 
+          stack={'React | Redux | Express | Node.js | MongoDB | REST APIs | GraphQL | Jest | TypeScript'}
+        />
+
+        <Project title={"Code reviews"} image={code_review} border={'warning'} bg={'light'} 
+          href_app={null} href_code={'https://github.com/jasylwong/code-reviews'} 
+          text={'Coding challenges completed while under the watchful eye of independent professional reviewers from CoGrammar.'} 
+          stack={'Ruby | RSpec'}
+        />
+
+        <Project title={"This website!"} image={my_website} border={'success'} bg={'light'} 
+          href_app={'https://jason-wong.netlify.app'} href_code={'https://github.com/jasylwong/my_website'} 
+          text={'Yup! I built this very website from the ground up, using React. Feedback welcome, and commissions possible ;)'} 
+          stack={'React | Netlify'}
+        />
+      </CardDeck>
+
+      <br />
+
       <CardDeck>
         <Project title={"Learning Journal"} image={coming_soon} border={'danger'} bg={'light'} 
           href_app={null} href_code={'https://github.com/Synergise/learning-journal'} 
@@ -67,7 +92,7 @@ function Projects() {
         />
       </CardDeck>
 
-      <br></br>
+      <br />
 
       <CardDeck>
         <Project title={"Bank tech test"} image={bank_tech_test} border={'danger'} bg={'light'} 
