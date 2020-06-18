@@ -1,12 +1,12 @@
 # Personal website 👨‍💻
 
+[Objective](#Objective) | [Running the program](#running_the_program) | [Further work](#further_work)
+
 This is the code behind my personal website, built from the ground up using React. You can visit it by [clicking here](https://jason-wong.netlify.com/)!
 
 <div align="center"><img src="giphy.gif" /></div>
 
-[Objective](#Objective) | [Running the program](#running_the_program) | [Further work](#further_work)
-
-## Objective
+## <a name="objective">Objective</a>
 
 Build a website to apply the things I have learnt in React, and give a snapshot of my developer profile.
 
