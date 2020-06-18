@@ -1,6 +1,8 @@
 # Personal website 👨‍💻
 
-This is the code behind my personal website, which can be found by [clicking here](https://jason-wong.netlify.com/).
+This is the code behind my personal website. You can visit it by [clicking here](https://jason-wong.netlify.com/)!
+
+![homepage](giphy.gif)
 
 [Objective](#Objective) | [Running the program](#running_the_program) | [Further work](#further_work)
 
