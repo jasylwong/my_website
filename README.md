@@ -2,7 +2,7 @@
 
 This is the code behind my personal website. You can visit it by [clicking here](https://jason-wong.netlify.com/)!
 
-<div style="text-align:center"><img src="giphy.gif" /></div>
+<div align="center"><img src="giphy.gif" /></div>
 
 [Objective](#Objective) | [Running the program](#running_the_program) | [Further work](#further_work)
 
