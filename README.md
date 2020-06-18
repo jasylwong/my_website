@@ -1,6 +1,6 @@
 # Personal website 👨‍💻
 
-This is the code behind my personal website. You can visit it by [clicking here](https://jason-wong.netlify.com/)!
+This is the code behind my personal website, built from the ground up using React. You can visit it by [clicking here](https://jason-wong.netlify.com/)!
 
 <div align="center"><img src="giphy.gif" /></div>
 
